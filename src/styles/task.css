@@ -1,0 +1,21 @@
+.task {
+    /* background:violet; */
+    border: 1px solid #2188ff;
+    border-radius: 20px;
+    padding: 0 8px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task p{
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.task div{
+    text-align: right;
+}

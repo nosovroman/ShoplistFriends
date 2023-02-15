@@ -1,0 +1,78 @@
+.main {
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0);
+    padding: 0 35px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+    padding: 0 10px;
+    margin-top: 90px;
+    
+
+    /* Внутренности */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    /* Красота */
+    border-radius: 5px;
+    /* border: khaki 1px solid; */
+     /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+    /*background: #d8f4ffa9; */
+    /* font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif; */
+}
+
+h3 {
+    text-align: center;
+}
+
+.forma {
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input {
+    height: 100%;
+    font-size: 14px;
+    padding: 10px 10px;
+    border:none;
+    border-radius: 10px 1px 1px 10px;
+    outline-color: #2188ff;
+    outline-style: none;
+}
+
+input:focus {
+    box-shadow: 0 0 0 1px #2188ff;
+}
+
+.forma button {
+    font-size: 14px;
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background:#2188ff;
+    color: white;
+    font-weight: bold;
+}
+
+.cancel_button {
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 189, 189, 0);
+    border: 1px solid #2188ff;
+    color: #2188ff;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,92 @@
+.cont {
+    /* left: 0;
+    right: 0; */
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    top: 0;
+    padding: 0 35px;
+    
+    transform: translate(-50%, 0);
+    padding: 0 10px;
+    margin-top: 80px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+
+    
+
+    /* Внутренности */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    /* Красота */
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+    /*background: #d8f4ffa9; */
+    /* font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif; */
+}
+
+.list{
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+}
+
+.listNav {
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.list h3 {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.list img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.list form {
+    display: flex;
+    flex-direction: row;
+}
+
+.list input {
+    height: 100%;
+    font-size: 14px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px 1px 1px 10px;
+    outline-color: #2188ff;
+    outline-style: none;
+}
+
+.list input:focus {
+    box-shadow: 0 0 0 1px #2188ff;
+}
+
+.list form button {
+    font-size: 14px;
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    background:#2188ff;
+    color: white;
+    font-weight: bold;
+}
+
+.my_lists {
+    padding-top: 5px;
+    text-align: left;
+}
+
+.cur_mail {
+    text-align: center;
+    color: #2188ff;
+}

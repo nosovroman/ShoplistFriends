@@ -1,0 +1,57 @@
+.form {
+    /* Позиция относительно родителя */
+    /* width: 80%; */
+    position: absolute;
+    margin: 0 auto;
+    /* left: 0;
+    right: 0; */
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, 0);
+    padding: 0 35px;
+
+    /* Внутренности */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Красота */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: #d8f4ffa9;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form input {
+    font-size: 14px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border:none;
+    border-radius: 5px;
+    outline-color: #2188ff;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background:#2188ff;
+    color: white;
+    font-weight: bold;
+}
+
+.form p {
+    font-size: 14px;
+    text-align: right;
+}
+
+.form a {
+    color: rgb(0, 119, 255);
+    text-decoration: none;
+}
